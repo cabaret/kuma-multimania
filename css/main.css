@@ -1,0 +1,124 @@
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1, h2 {
+    color: #DDDDDD;
+}
+
+a {
+  color:#39c;
+  font-weight:400;
+  text-decoration:none;
+}
+
+.backstretch {
+    background: rgba(51, 51, 51, .9);
+    display: block;
+    height: 100%;
+    padding-top: 35px!important;
+}
+
+
+
+.slide-1 figure {
+    padding-top: 90px;
+}
+
+.slide-1 .links {
+    margin-top: 30px;
+}
+
+.slide-1 a, .slide-3 a {
+    color: white;
+}
+
+.slide-1 a:hover, .slide-3 a:hover {
+    text-decoration: underline;
+}
+
+.slides h1 {
+    font-size: 2em;
+}
+
+.slide-2 ul li {
+    line-height: 140%;
+}
+
+.slide-2.talks {
+    font-size: .8em;
+}
+
+.slide-2.talks .backstretch{
+    background: rgba(0, 0, 0, .9);
+}
+
+.slide-2.talks ul li {
+    line-height: 180%;
+}
+
+.slide-3 .backstretch {
+    background: rgba(0, 0, 0, .8);
+}
+
+.slide-3 h1 {
+    font-size: 1.4em;
+}
+
+.slide-3 h2 {
+    font-size: .8em;
+}
+
+.slide-3 li {
+    font-size: .8em;
+}
+
+.kuma {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.slide-4 .backstretch{
+    background: rgba(0, 0, 0, .85);
+}
+
+pre {
+    color: #333;
+    background: rgba(211, 222, 211, .7);
+    font-size: 32px!important;
+    padding: 30px 0 0 30px!important;
+    word-wrap: normal!important;
+}
+
+pre.br-ex-1 {
+    border-radius: 1em;
+}
+
+pre.br-ex-2 {
+    border-radius: 1em 2em;
+}
+
+pre.br-ex-3 {
+    border-radius: 40px / 80px;
+    height: 100px!important;
+    padding: 70px 0 0 40px!important;
+}
+
+.slide-5 .backstretch{
+    background: rgba(0, 0, 0, .85);
+}
+
+.slide-6 h1 {
+    font-size: 1.1em;
+}
+
+.kuma img {
+    width: 120px;
+}
